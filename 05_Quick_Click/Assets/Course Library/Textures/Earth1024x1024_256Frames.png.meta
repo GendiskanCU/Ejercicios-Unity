@@ -1,0 +1,6300 @@
+fileFormatVersion: 2
+guid: 177b58dba1ef7414b85a950bec5707c2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 266759544088252927
+    second: Earth1024x1024_256Frames_0
+  - first:
+      213: 2020109306668131179
+    second: Earth1024x1024_256Frames_1
+  - first:
+      213: 753210591353743239
+    second: Earth1024x1024_256Frames_2
+  - first:
+      213: 4902001641894263602
+    second: Earth1024x1024_256Frames_3
+  - first:
+      213: -2656259775431171204
+    second: Earth1024x1024_256Frames_4
+  - first:
+      213: 2307579543824429179
+    second: Earth1024x1024_256Frames_5
+  - first:
+      213: 4742983412626393472
+    second: Earth1024x1024_256Frames_6
+  - first:
+      213: -8242939069468477857
+    second: Earth1024x1024_256Frames_7
+  - first:
+      213: -4575755278885516939
+    second: Earth1024x1024_256Frames_8
+  - first:
+      213: -7077975803739045736
+    second: Earth1024x1024_256Frames_9
+  - first:
+      213: -1116998893988364985
+    second: Earth1024x1024_256Frames_10
+  - first:
+      213: -3320435489207255280
+    second: Earth1024x1024_256Frames_11
+  - first:
+      213: -4571757784426258913
+    second: Earth1024x1024_256Frames_12
+  - first:
+      213: -2176610182729695474
+    second: Earth1024x1024_256Frames_13
+  - first:
+      213: -4235592011673867185
+    second: Earth1024x1024_256Frames_14
+  - first:
+      213: -1809845645035591428
+    second: Earth1024x1024_256Frames_15
+  - first:
+      213: -890225224522028708
+    second: Earth1024x1024_256Frames_16
+  - first:
+      213: 3293794666139797716
+    second: Earth1024x1024_256Frames_17
+  - first:
+      213: 9221219779748569553
+    second: Earth1024x1024_256Frames_18
+  - first:
+      213: -4332193531070763764
+    second: Earth1024x1024_256Frames_19
+  - first:
+      213: 2409213106837957708
+    second: Earth1024x1024_256Frames_20
+  - first:
+      213: -556658328425039477
+    second: Earth1024x1024_256Frames_21
+  - first:
+      213: 793651020003524954
+    second: Earth1024x1024_256Frames_22
+  - first:
+      213: 2539841831983618473
+    second: Earth1024x1024_256Frames_23
+  - first:
+      213: 4709428995960595145
+    second: Earth1024x1024_256Frames_24
+  - first:
+      213: -7518403682249353090
+    second: Earth1024x1024_256Frames_25
+  - first:
+      213: 2182087716463010372
+    second: Earth1024x1024_256Frames_26
+  - first:
+      213: 1561064862315093524
+    second: Earth1024x1024_256Frames_27
+  - first:
+      213: 4688988015641473983
+    second: Earth1024x1024_256Frames_28
+  - first:
+      213: -7448367455570281998
+    second: Earth1024x1024_256Frames_29
+  - first:
+      213: 7227080424415727998
+    second: Earth1024x1024_256Frames_30
+  - first:
+      213: -4741505765499071413
+    second: Earth1024x1024_256Frames_31
+  - first:
+      213: 564451243386546758
+    second: Earth1024x1024_256Frames_32
+  - first:
+      213: 1970701599742956660
+    second: Earth1024x1024_256Frames_33
+  - first:
+      213: 6769748512226165495
+    second: Earth1024x1024_256Frames_34
+  - first:
+      213: 774514318757854145
+    second: Earth1024x1024_256Frames_35
+  - first:
+      213: 8905225699420726470
+    second: Earth1024x1024_256Frames_36
+  - first:
+      213: -5197255073328256026
+    second: Earth1024x1024_256Frames_37
+  - first:
+      213: -6256616661382148676
+    second: Earth1024x1024_256Frames_38
+  - first:
+      213: 7783599458452593503
+    second: Earth1024x1024_256Frames_39
+  - first:
+      213: -5190835450416417255
+    second: Earth1024x1024_256Frames_40
+  - first:
+      213: 592645553512257863
+    second: Earth1024x1024_256Frames_41
+  - first:
+      213: 3657147265163769325
+    second: Earth1024x1024_256Frames_42
+  - first:
+      213: 5828353920478228202
+    second: Earth1024x1024_256Frames_43
+  - first:
+      213: 6500086320897193028
+    second: Earth1024x1024_256Frames_44
+  - first:
+      213: -7152918240136785097
+    second: Earth1024x1024_256Frames_45
+  - first:
+      213: 5402138781366843492
+    second: Earth1024x1024_256Frames_46
+  - first:
+      213: 2990459079526919952
+    second: Earth1024x1024_256Frames_47
+  - first:
+      213: 8788594402625054295
+    second: Earth1024x1024_256Frames_48
+  - first:
+      213: -3641906828448090262
+    second: Earth1024x1024_256Frames_49
+  - first:
+      213: -8698882704218505450
+    second: Earth1024x1024_256Frames_50
+  - first:
+      213: -2515964429855617933
+    second: Earth1024x1024_256Frames_51
+  - first:
+      213: -6121744389115737791
+    second: Earth1024x1024_256Frames_52
+  - first:
+      213: 2994472261379607563
+    second: Earth1024x1024_256Frames_53
+  - first:
+      213: -2564373076756779247
+    second: Earth1024x1024_256Frames_54
+  - first:
+      213: -65626780708540530
+    second: Earth1024x1024_256Frames_55
+  - first:
+      213: 615154113959679830
+    second: Earth1024x1024_256Frames_56
+  - first:
+      213: -8943515448821252316
+    second: Earth1024x1024_256Frames_57
+  - first:
+      213: -8504391307131587504
+    second: Earth1024x1024_256Frames_58
+  - first:
+      213: -4371004354153547875
+    second: Earth1024x1024_256Frames_59
+  - first:
+      213: 8498222804923833536
+    second: Earth1024x1024_256Frames_60
+  - first:
+      213: 8207730309216604576
+    second: Earth1024x1024_256Frames_61
+  - first:
+      213: -2170024263422649983
+    second: Earth1024x1024_256Frames_62
+  - first:
+      213: -664869458051677003
+    second: Earth1024x1024_256Frames_63
+  - first:
+      213: 5315508610158788916
+    second: Earth1024x1024_256Frames_64
+  - first:
+      213: -5043159490175131164
+    second: Earth1024x1024_256Frames_65
+  - first:
+      213: -7785753534604716959
+    second: Earth1024x1024_256Frames_66
+  - first:
+      213: 350563582164101709
+    second: Earth1024x1024_256Frames_67
+  - first:
+      213: -4540187931932849349
+    second: Earth1024x1024_256Frames_68
+  - first:
+      213: 6646436886807815920
+    second: Earth1024x1024_256Frames_69
+  - first:
+      213: -5813410260671545564
+    second: Earth1024x1024_256Frames_70
+  - first:
+      213: 5870038478652128849
+    second: Earth1024x1024_256Frames_71
+  - first:
+      213: 2352048435968758343
+    second: Earth1024x1024_256Frames_72
+  - first:
+      213: -8788384131051842549
+    second: Earth1024x1024_256Frames_73
+  - first:
+      213: -6461445325185393207
+    second: Earth1024x1024_256Frames_74
+  - first:
+      213: 8069405701419009722
+    second: Earth1024x1024_256Frames_75
+  - first:
+      213: 8980940385059586519
+    second: Earth1024x1024_256Frames_76
+  - first:
+      213: 2540692002537967012
+    second: Earth1024x1024_256Frames_77
+  - first:
+      213: 1393092482912112674
+    second: Earth1024x1024_256Frames_78
+  - first:
+      213: -5821709247485319905
+    second: Earth1024x1024_256Frames_79
+  - first:
+      213: -7581084022592518164
+    second: Earth1024x1024_256Frames_80
+  - first:
+      213: -3676381182380244716
+    second: Earth1024x1024_256Frames_81
+  - first:
+      213: -5706158277871529580
+    second: Earth1024x1024_256Frames_82
+  - first:
+      213: -6088089190507067639
+    second: Earth1024x1024_256Frames_83
+  - first:
+      213: -280875199578834698
+    second: Earth1024x1024_256Frames_84
+  - first:
+      213: -4156381943466899412
+    second: Earth1024x1024_256Frames_85
+  - first:
+      213: 2441225516299037676
+    second: Earth1024x1024_256Frames_86
+  - first:
+      213: -8495356132010982514
+    second: Earth1024x1024_256Frames_87
+  - first:
+      213: -7331898030450383671
+    second: Earth1024x1024_256Frames_88
+  - first:
+      213: -1584463306862544722
+    second: Earth1024x1024_256Frames_89
+  - first:
+      213: 7798464918003322254
+    second: Earth1024x1024_256Frames_90
+  - first:
+      213: 4847028599589531553
+    second: Earth1024x1024_256Frames_91
+  - first:
+      213: 596045136476220980
+    second: Earth1024x1024_256Frames_92
+  - first:
+      213: -5937632824334029294
+    second: Earth1024x1024_256Frames_93
+  - first:
+      213: 6806022686164204305
+    second: Earth1024x1024_256Frames_94
+  - first:
+      213: 663346214670522333
+    second: Earth1024x1024_256Frames_95
+  - first:
+      213: 3983070398572054449
+    second: Earth1024x1024_256Frames_96
+  - first:
+      213: -7775968337938875720
+    second: Earth1024x1024_256Frames_97
+  - first:
+      213: -4595619558018808999
+    second: Earth1024x1024_256Frames_98
+  - first:
+      213: -6577459379787460569
+    second: Earth1024x1024_256Frames_99
+  - first:
+      213: 3426750189618830438
+    second: Earth1024x1024_256Frames_100
+  - first:
+      213: 4027094833421636537
+    second: Earth1024x1024_256Frames_101
+  - first:
+      213: 5262730554728510619
+    second: Earth1024x1024_256Frames_102
+  - first:
+      213: 6707701640692058922
+    second: Earth1024x1024_256Frames_103
+  - first:
+      213: 7472269628899960919
+    second: Earth1024x1024_256Frames_104
+  - first:
+      213: -1421009650964274057
+    second: Earth1024x1024_256Frames_105
+  - first:
+      213: 6926669642879392390
+    second: Earth1024x1024_256Frames_106
+  - first:
+      213: 3646459574303076935
+    second: Earth1024x1024_256Frames_107
+  - first:
+      213: -6565543188632828092
+    second: Earth1024x1024_256Frames_108
+  - first:
+      213: -8142811529813660914
+    second: Earth1024x1024_256Frames_109
+  - first:
+      213: 4128686512435790673
+    second: Earth1024x1024_256Frames_110
+  - first:
+      213: 1365259796206533925
+    second: Earth1024x1024_256Frames_111
+  - first:
+      213: 6712905106549040024
+    second: Earth1024x1024_256Frames_112
+  - first:
+      213: 4568248458043161915
+    second: Earth1024x1024_256Frames_113
+  - first:
+      213: -2430190173684815993
+    second: Earth1024x1024_256Frames_114
+  - first:
+      213: -2919545023741606370
+    second: Earth1024x1024_256Frames_115
+  - first:
+      213: -2611042361839639495
+    second: Earth1024x1024_256Frames_116
+  - first:
+      213: -6499243211784965682
+    second: Earth1024x1024_256Frames_117
+  - first:
+      213: -8463258956173987261
+    second: Earth1024x1024_256Frames_118
+  - first:
+      213: 5582326641382708752
+    second: Earth1024x1024_256Frames_119
+  - first:
+      213: -581925314479478506
+    second: Earth1024x1024_256Frames_120
+  - first:
+      213: 2438892222429091209
+    second: Earth1024x1024_256Frames_121
+  - first:
+      213: 5302812898210022498
+    second: Earth1024x1024_256Frames_122
+  - first:
+      213: -6779081567523509188
+    second: Earth1024x1024_256Frames_123
+  - first:
+      213: -6017963779864059419
+    second: Earth1024x1024_256Frames_124
+  - first:
+      213: -4625366437038695201
+    second: Earth1024x1024_256Frames_125
+  - first:
+      213: -107376425192577883
+    second: Earth1024x1024_256Frames_126
+  - first:
+      213: -2522505242844549844
+    second: Earth1024x1024_256Frames_127
+  - first:
+      213: 3672722881183472186
+    second: Earth1024x1024_256Frames_128
+  - first:
+      213: -8097173614543453373
+    second: Earth1024x1024_256Frames_129
+  - first:
+      213: -4917597830494214055
+    second: Earth1024x1024_256Frames_130
+  - first:
+      213: -4658615188051145083
+    second: Earth1024x1024_256Frames_131
+  - first:
+      213: 4379079296058178593
+    second: Earth1024x1024_256Frames_132
+  - first:
+      213: -8845008663121196239
+    second: Earth1024x1024_256Frames_133
+  - first:
+      213: -7499951802607150518
+    second: Earth1024x1024_256Frames_134
+  - first:
+      213: 2968091104516308638
+    second: Earth1024x1024_256Frames_135
+  - first:
+      213: -4393491654655964446
+    second: Earth1024x1024_256Frames_136
+  - first:
+      213: -5315195163653951693
+    second: Earth1024x1024_256Frames_137
+  - first:
+      213: -8801741938849469204
+    second: Earth1024x1024_256Frames_138
+  - first:
+      213: 2477934413118078215
+    second: Earth1024x1024_256Frames_139
+  - first:
+      213: -5047619296129838631
+    second: Earth1024x1024_256Frames_140
+  - first:
+      213: 6463941824977978549
+    second: Earth1024x1024_256Frames_141
+  - first:
+      213: 5707416738124425417
+    second: Earth1024x1024_256Frames_142
+  - first:
+      213: 2914977672988694936
+    second: Earth1024x1024_256Frames_143
+  - first:
+      213: -1478628287349519658
+    second: Earth1024x1024_256Frames_144
+  - first:
+      213: -3520416084505371586
+    second: Earth1024x1024_256Frames_145
+  - first:
+      213: -3801559589402444274
+    second: Earth1024x1024_256Frames_146
+  - first:
+      213: -2687839785979151968
+    second: Earth1024x1024_256Frames_147
+  - first:
+      213: -7625398014866744562
+    second: Earth1024x1024_256Frames_148
+  - first:
+      213: 60418497188133008
+    second: Earth1024x1024_256Frames_149
+  - first:
+      213: -3074471939572779058
+    second: Earth1024x1024_256Frames_150
+  - first:
+      213: -6306148858021658989
+    second: Earth1024x1024_256Frames_151
+  - first:
+      213: -4056686952530438493
+    second: Earth1024x1024_256Frames_152
+  - first:
+      213: 4882453692754866060
+    second: Earth1024x1024_256Frames_153
+  - first:
+      213: -6221919610954614740
+    second: Earth1024x1024_256Frames_154
+  - first:
+      213: -1749573101034476995
+    second: Earth1024x1024_256Frames_155
+  - first:
+      213: -1398550677847944888
+    second: Earth1024x1024_256Frames_156
+  - first:
+      213: -1210081070582109691
+    second: Earth1024x1024_256Frames_157
+  - first:
+      213: 5540716575221205766
+    second: Earth1024x1024_256Frames_158
+  - first:
+      213: -2540868356877920187
+    second: Earth1024x1024_256Frames_159
+  - first:
+      213: -6216418733152724954
+    second: Earth1024x1024_256Frames_160
+  - first:
+      213: -3184757829351533256
+    second: Earth1024x1024_256Frames_161
+  - first:
+      213: 8004806699964042347
+    second: Earth1024x1024_256Frames_162
+  - first:
+      213: 932421697229786856
+    second: Earth1024x1024_256Frames_163
+  - first:
+      213: -8184579439546347811
+    second: Earth1024x1024_256Frames_164
+  - first:
+      213: -5108735236964067329
+    second: Earth1024x1024_256Frames_165
+  - first:
+      213: -2247113312796345111
+    second: Earth1024x1024_256Frames_166
+  - first:
+      213: 1032721424328223049
+    second: Earth1024x1024_256Frames_167
+  - first:
+      213: -7093158072405073824
+    second: Earth1024x1024_256Frames_168
+  - first:
+      213: -4053848834940734935
+    second: Earth1024x1024_256Frames_169
+  - first:
+      213: 5865760321723148601
+    second: Earth1024x1024_256Frames_170
+  - first:
+      213: 8294435606518289974
+    second: Earth1024x1024_256Frames_171
+  - first:
+      213: -7467807204784201915
+    second: Earth1024x1024_256Frames_172
+  - first:
+      213: -404847337774363765
+    second: Earth1024x1024_256Frames_173
+  - first:
+      213: -2316928678417956175
+    second: Earth1024x1024_256Frames_174
+  - first:
+      213: 5806665424874556732
+    second: Earth1024x1024_256Frames_175
+  - first:
+      213: 5177176795343362749
+    second: Earth1024x1024_256Frames_176
+  - first:
+      213: 5242518305728741607
+    second: Earth1024x1024_256Frames_177
+  - first:
+      213: -7948407491340170617
+    second: Earth1024x1024_256Frames_178
+  - first:
+      213: 8519863347146397202
+    second: Earth1024x1024_256Frames_179
+  - first:
+      213: 6798265808425772752
+    second: Earth1024x1024_256Frames_180
+  - first:
+      213: -6294455553611287579
+    second: Earth1024x1024_256Frames_181
+  - first:
+      213: -6422748147394478539
+    second: Earth1024x1024_256Frames_182
+  - first:
+      213: -7001563473210901195
+    second: Earth1024x1024_256Frames_183
+  - first:
+      213: 473248857662322679
+    second: Earth1024x1024_256Frames_184
+  - first:
+      213: -8959898297280352560
+    second: Earth1024x1024_256Frames_185
+  - first:
+      213: -2735264121068163729
+    second: Earth1024x1024_256Frames_186
+  - first:
+      213: -1001061768715753721
+    second: Earth1024x1024_256Frames_187
+  - first:
+      213: -2079955562532478013
+    second: Earth1024x1024_256Frames_188
+  - first:
+      213: -3528258064493178958
+    second: Earth1024x1024_256Frames_189
+  - first:
+      213: 2663669942639009163
+    second: Earth1024x1024_256Frames_190
+  - first:
+      213: -4511095814417908571
+    second: Earth1024x1024_256Frames_191
+  - first:
+      213: -3584809199883777024
+    second: Earth1024x1024_256Frames_192
+  - first:
+      213: -5390125527502280889
+    second: Earth1024x1024_256Frames_193
+  - first:
+      213: -5314792444416337624
+    second: Earth1024x1024_256Frames_194
+  - first:
+      213: -1678840666329029704
+    second: Earth1024x1024_256Frames_195
+  - first:
+      213: -7619621402079157517
+    second: Earth1024x1024_256Frames_196
+  - first:
+      213: -2097424070756747937
+    second: Earth1024x1024_256Frames_197
+  - first:
+      213: 1133568962622854896
+    second: Earth1024x1024_256Frames_198
+  - first:
+      213: -844112935677373117
+    second: Earth1024x1024_256Frames_199
+  - first:
+      213: 7387887553725819905
+    second: Earth1024x1024_256Frames_200
+  - first:
+      213: 7882025772797457414
+    second: Earth1024x1024_256Frames_201
+  - first:
+      213: -4079219423687892655
+    second: Earth1024x1024_256Frames_202
+  - first:
+      213: 6447204868746206619
+    second: Earth1024x1024_256Frames_203
+  - first:
+      213: 382637385471856251
+    second: Earth1024x1024_256Frames_204
+  - first:
+      213: -4952934403070590494
+    second: Earth1024x1024_256Frames_205
+  - first:
+      213: -3397745536966863618
+    second: Earth1024x1024_256Frames_206
+  - first:
+      213: -2871487309084841040
+    second: Earth1024x1024_256Frames_207
+  - first:
+      213: -2479702334940424071
+    second: Earth1024x1024_256Frames_208
+  - first:
+      213: 6599151503839778363
+    second: Earth1024x1024_256Frames_209
+  - first:
+      213: 5582214635681200062
+    second: Earth1024x1024_256Frames_210
+  - first:
+      213: -6981281387125594502
+    second: Earth1024x1024_256Frames_211
+  - first:
+      213: -1846593695856757145
+    second: Earth1024x1024_256Frames_212
+  - first:
+      213: 5672673209528293897
+    second: Earth1024x1024_256Frames_213
+  - first:
+      213: 4207421252506827473
+    second: Earth1024x1024_256Frames_214
+  - first:
+      213: -4389401223016171480
+    second: Earth1024x1024_256Frames_215
+  - first:
+      213: 6554196226053024654
+    second: Earth1024x1024_256Frames_216
+  - first:
+      213: -859765870142255399
+    second: Earth1024x1024_256Frames_217
+  - first:
+      213: 8860110893279831129
+    second: Earth1024x1024_256Frames_218
+  - first:
+      213: 2316493225735885308
+    second: Earth1024x1024_256Frames_219
+  - first:
+      213: -2071406787696586839
+    second: Earth1024x1024_256Frames_220
+  - first:
+      213: -1293328820712820504
+    second: Earth1024x1024_256Frames_221
+  - first:
+      213: 1936122336993561379
+    second: Earth1024x1024_256Frames_222
+  - first:
+      213: 4785059840391679130
+    second: Earth1024x1024_256Frames_223
+  - first:
+      213: -3477377614918741577
+    second: Earth1024x1024_256Frames_224
+  - first:
+      213: 732012519845861591
+    second: Earth1024x1024_256Frames_225
+  - first:
+      213: -5088340538391820111
+    second: Earth1024x1024_256Frames_226
+  - first:
+      213: -6339400963445507014
+    second: Earth1024x1024_256Frames_227
+  - first:
+      213: 5310680035827829587
+    second: Earth1024x1024_256Frames_228
+  - first:
+      213: 6895111146002058
+    second: Earth1024x1024_256Frames_229
+  - first:
+      213: -8807568398907791670
+    second: Earth1024x1024_256Frames_230
+  - first:
+      213: 4410081289297252390
+    second: Earth1024x1024_256Frames_231
+  - first:
+      213: 7749968842769238766
+    second: Earth1024x1024_256Frames_232
+  - first:
+      213: 553804482980449718
+    second: Earth1024x1024_256Frames_233
+  - first:
+      213: -6354457417761994426
+    second: Earth1024x1024_256Frames_234
+  - first:
+      213: 4517962851076762986
+    second: Earth1024x1024_256Frames_235
+  - first:
+      213: -633778500360608625
+    second: Earth1024x1024_256Frames_236
+  - first:
+      213: 7382806127775967667
+    second: Earth1024x1024_256Frames_237
+  - first:
+      213: -6787700290397777127
+    second: Earth1024x1024_256Frames_238
+  - first:
+      213: -886285088016296650
+    second: Earth1024x1024_256Frames_239
+  - first:
+      213: 8116322944739797861
+    second: Earth1024x1024_256Frames_240
+  - first:
+      213: -2409235328279423836
+    second: Earth1024x1024_256Frames_241
+  - first:
+      213: 4672037861461990115
+    second: Earth1024x1024_256Frames_242
+  - first:
+      213: -1252510521660755019
+    second: Earth1024x1024_256Frames_243
+  - first:
+      213: 9071653090305789108
+    second: Earth1024x1024_256Frames_244
+  - first:
+      213: 784703388694677057
+    second: Earth1024x1024_256Frames_245
+  - first:
+      213: 1247378360879737866
+    second: Earth1024x1024_256Frames_246
+  - first:
+      213: 3313276776592135771
+    second: Earth1024x1024_256Frames_247
+  - first:
+      213: -2519273847023177059
+    second: Earth1024x1024_256Frames_248
+  - first:
+      213: 5425212106700891910
+    second: Earth1024x1024_256Frames_249
+  - first:
+      213: -6426956123563159111
+    second: Earth1024x1024_256Frames_250
+  - first:
+      213: -4307024821205513020
+    second: Earth1024x1024_256Frames_251
+  - first:
+      213: -79907939879866903
+    second: Earth1024x1024_256Frames_252
+  - first:
+      213: -4250009100381107984
+    second: Earth1024x1024_256Frames_253
+  - first:
+      213: -3953341163368535776
+    second: Earth1024x1024_256Frames_254
+  - first:
+      213: 7432886590419275098
+    second: Earth1024x1024_256Frames_255
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 961
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff153d95468b3b300800000000000000
+      internalID: 266759544088252927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 961
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b632a6f16bed80c10800000000000000
+      internalID: 2020109306668131179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 961
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787a3baca01f37a00800000000000000
+      internalID: 753210591353743239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 961
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b3d797588670440800000000000000
+      internalID: 4902001641894263602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 961
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c732446cec1132bd0800000000000000
+      internalID: -2656259775431171204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 961
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70fc987e5b260020800000000000000
+      internalID: 2307579543824429179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_6
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 961
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0898a2dc84672d140800000000000000
+      internalID: 4742983412626393472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 961
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56742bd6923b9d80800000000000000
+      internalID: -8242939069468477857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_8
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 961
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57909e631d6af70c0800000000000000
+      internalID: -4575755278885516939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_9
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 961
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8900359d18af5cd90800000000000000
+      internalID: -7077975803739045736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_10
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 961
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74db15d8c6f9f70f0800000000000000
+      internalID: -1116998893988364985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_11
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 961
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f7336d3817be1d0800000000000000
+      internalID: -3320435489207255280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_12
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 961
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e552c648add80c0800000000000000
+      internalID: -4571757784426258913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_13
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 961
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ff5eb22902bc1e0800000000000000
+      internalID: -2176610182729695474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_14
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 961
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c62baa1872835c0800000000000000
+      internalID: -4235592011673867185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_15
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 961
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8ad5d89f222e6e0800000000000000
+      internalID: -1809845645035591428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 897
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59a54affd845a3f0800000000000000
+      internalID: -890225224522028708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_17
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 897
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8c65e2cc8e5bd20800000000000000
+      internalID: 3293794666139797716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_18
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 897
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d128b7988a58ff70800000000000000
+      internalID: 9221219779748569553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_19
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 897
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d284abfe4f0e3c0800000000000000
+      internalID: -4332193531070763764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_20
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 897
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4caa4d5e8e3f6120800000000000000
+      internalID: 2409213106837957708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_21
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 897
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8976f8133a5648f0800000000000000
+      internalID: -556658328425039477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_22
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 897
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51cfe2d56d930b00800000000000000
+      internalID: 793651020003524954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_23
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 897
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a99f0580b45f3320800000000000000
+      internalID: 2539841831983618473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_24
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 897
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2e72f58b04b5140800000000000000
+      internalID: 4709428995960595145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_25
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 897
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78d9896fa349a790800000000000000
+      internalID: -7518403682249353090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_26
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 897
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44265888735584e10800000000000000
+      internalID: 2182087716463010372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_27
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 897
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e92ada8340aa510800000000000000
+      internalID: 1561064862315093524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_28
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 897
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3bf54c1c1a21140800000000000000
+      internalID: 4688988015641473983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_29
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 897
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f93726234512a890800000000000000
+      internalID: -7448367455570281998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_30
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 897
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e719a74fa5fbb4460800000000000000
+      internalID: 7227080424415727998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_31
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 897
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4416fab0a9c23eb0800000000000000
+      internalID: -4741505765499071413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 833
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a251f4a6555d700800000000000000
+      internalID: 564451243386546758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_33
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 833
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47419fae9a6595b10800000000000000
+      internalID: 1970701599742956660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_34
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 833
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f248f9776af2fd50800000000000000
+      internalID: 6769748512226165495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_35
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 833
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbf30b5ba0afba00800000000000000
+      internalID: 774514318757854145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_36
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 833
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4e6aa7797b59b70800000000000000
+      internalID: 8905225699420726470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_37
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 833
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb2c2b0c04afd7b0800000000000000
+      internalID: -5197255073328256026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_38
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 833
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdc682ab480c29a0800000000000000
+      internalID: -6256616661382148676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_39
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 833
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b5dfad776e40c60800000000000000
+      internalID: 7783599458452593503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_40
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 833
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916bc6af8a276f7b0800000000000000
+      internalID: -5190835450416417255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_41
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 833
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74910deadff793800800000000000000
+      internalID: 592645553512257863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_42
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 833
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5b06faf0cc0c230800000000000000
+      internalID: 3657147265163769325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_43
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 833
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee2c5fb20972e050800000000000000
+      internalID: 5828353920478228202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_44
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 833
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444f376e112f43a50800000000000000
+      internalID: 6500086320897193028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_45
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 833
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7331c3522cabbbc90800000000000000
+      internalID: -7152918240136785097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_46
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 833
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4687bb2999048fa40800000000000000
+      internalID: 5402138781366843492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_47
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 833
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f2b8e40be308920800000000000000
+      internalID: 2990459079526919952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 769
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756e3739b0c57f970800000000000000
+      internalID: 8788594402625054295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_49
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 769
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6738410909557dc0800000000000000
+      internalID: -3641906828448090262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_50
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 769
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f3448e44c574780800000000000000
+      internalID: -8698882704218505450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_51
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 769
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c00f26eaf751dd0800000000000000
+      internalID: -2515964429855617933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_52
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 769
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149040999e13b0ba0800000000000000
+      internalID: -6121744389115737791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_53
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 769
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cca4508a08e8920800000000000000
+      internalID: 2994472261379607563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_54
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 769
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f2658f544896cd0800000000000000
+      internalID: -2564373076756779247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_55
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 769
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f6d186ac8d61ff0800000000000000
+      internalID: -65626780708540530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_56
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 769
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657dfac4867798800800000000000000
+      internalID: 615154113959679830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_57
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 769
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f7ac5851042e380800000000000000
+      internalID: -8943515448821252316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_58
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 769
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05470831a255af980800000000000000
+      internalID: -8504391307131587504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_59
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 769
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97fdfec2b21753c0800000000000000
+      internalID: -4371004354153547875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_60
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 769
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccdb959d90cfe570800000000000000
+      internalID: 8498222804923833536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_61
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 769
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a11015da37b7e170800000000000000
+      internalID: 8207730309216604576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_62
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 769
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189d6b00e6682e1e0800000000000000
+      internalID: -2170024263422649983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_63
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 769
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4c2d220c8e5c6f0800000000000000
+      internalID: -664869458051677003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 705
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4318b0d0bea74c940800000000000000
+      internalID: 5315508610158788916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_65
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 705
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1a87ad929130ab0800000000000000
+      internalID: -5043159490175131164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_66
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 705
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164d425396273f390800000000000000
+      internalID: -7785753534604716959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_67
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 705
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a641a78b37dd400800000000000000
+      internalID: 350563582164101709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_68
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 705
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b80af71230ef0c0800000000000000
+      internalID: -4540187931932849349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_69
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 705
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6ab3c5223ec3c50800000000000000
+      internalID: 6646436886807815920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_70
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 705
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fbf0f2b2e925fa0800000000000000
+      internalID: -5813410260671545564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_71
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 705
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e3fe145e0967150800000000000000
+      internalID: 5870038478652128849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_72
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 705
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7425e60479724a020800000000000000
+      internalID: 2352048435968758343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_73
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 705
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0499f61233690680800000000000000
+      internalID: -8788384131051842549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_74
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 705
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd57b006b55456a0800000000000000
+      internalID: -6461445325185393207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_75
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 705
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6879d5bb94cff60800000000000000
+      internalID: 8069405701419009722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_76
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 705
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1cf6872b5b2ac70800000000000000
+      internalID: 8980940385059586519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_77
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 705
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad83f64ae9524320800000000000000
+      internalID: 2540692002537967012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_78
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 705
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2205e377b32455310800000000000000
+      internalID: 1393092482912112674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_79
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 705
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15e70eb842253fa0800000000000000
+      internalID: -5821709247485319905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7cbfc6f349ac690800000000000000
+      internalID: -7581084022592518164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_81
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4118b4dfacedafcc0800000000000000
+      internalID: -3676381182380244716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_82
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491105f5747afc0b0800000000000000
+      internalID: -5706158277871529580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_83
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9074ee62323c28ba0800000000000000
+      internalID: -6088089190507067639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_84
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8f2ee7e712a1cf0800000000000000
+      internalID: -280875199578834698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_85
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28cec4d4a09156c0800000000000000
+      internalID: -4156381943466899412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_86
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebaf934ca9f0e120800000000000000
+      internalID: 2441225516299037676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_87
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e838c07bb9e6a1a80800000000000000
+      internalID: -8495356132010982514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_88
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c46e9d569ddf3a90800000000000000
+      internalID: -7331898030450383671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_89
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea831da640bd20ae0800000000000000
+      internalID: -1584463306862544722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_90
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d0fee5686b93c60800000000000000
+      internalID: 7798464918003322254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_91
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af61b6a4da144340800000000000000
+      internalID: 4847028599589531553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_92
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ea3c5c4e3954800800000000000000
+      internalID: 596045136476220980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_93
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21eeedab76a499da0800000000000000
+      internalID: -5937632824334029294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_94
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b311eb299d37e50800000000000000
+      internalID: 6806022686164204305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_95
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 641
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd759802edda43900800000000000000
+      internalID: 663346214670522333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_96
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7c24e9c65b64730800000000000000
+      internalID: 3983070398572054449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_97
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8baf778def5361490800000000000000
+      internalID: -7775968337938875720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_98
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95383715c541930c0800000000000000
+      internalID: -4595619558018808999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_99
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720153ffa8b28b4a0800000000000000
+      internalID: -6577459379787460569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_100
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c9b3a44234e8f20800000000000000
+      internalID: 3426750189618830438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_101
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b358ee1a6d13e730800000000000000
+      internalID: 4027094833421636537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_102
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94ff2f6e89f80940800000000000000
+      internalID: 5262730554728510619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_103
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b41c07a1b861d50800000000000000
+      internalID: 6707701640692058922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_104
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758a58043a5d2b760800000000000000
+      internalID: 7472269628899960919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_105
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7746fd3504f874ce0800000000000000
+      internalID: -1421009650964274057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_106
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ade445759702060800000000000000
+      internalID: 6926669642879392390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_107
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742382eb9a3da9230800000000000000
+      internalID: 3646459574303076935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_108
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4470e04714182e4a0800000000000000
+      internalID: -6565543188632828092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_109
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b608c5e0ceefe80800000000000000
+      internalID: -8142811529813660914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_110
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1538ea2228a0c4930800000000000000
+      internalID: 4128686512435790673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_111
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 577
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d330b1d8062f210800000000000000
+      internalID: 1365259796206533925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_112
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893e2ceb0a7092d50800000000000000
+      internalID: 6712905106549040024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_113
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d736bd4cda56f30800000000000000
+      internalID: 4568248458043161915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_114
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7872fd8a9ea364ed0800000000000000
+      internalID: -2430190173684815993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_115
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e164f12f441bb77d0800000000000000
+      internalID: -2919545023741606370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_116
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9342d094ec6b3cbd0800000000000000
+      internalID: -2611042361839639495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_117
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec130bcbbbc0ec5a0800000000000000
+      internalID: -6499243211784965682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_118
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3423b13d1d67c8a80800000000000000
+      internalID: -8463258956173987261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_119
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016d0dff088687d40800000000000000
+      internalID: 5582326641382708752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_120
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619a4a872069ce7f0800000000000000
+      internalID: -581925314479478506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_121
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9855953fd8fa8d120800000000000000
+      internalID: 2438892222429091209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_122
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2640b244c30679940800000000000000
+      internalID: 5302812898210022498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_123
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cec504b3ddbe1a0800000000000000
+      internalID: -6779081567523509188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_124
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e12906a3d5eb7ca0800000000000000
+      internalID: -6017963779864059419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_125
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc5b445bb56fcfb0800000000000000
+      internalID: -4625366437038695201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_126
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4252fc5b5828ef0800000000000000
+      internalID: -107376425192577883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_127
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 513
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2da030b8d24efcd0800000000000000
+      internalID: -2522505242844549844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_128
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ad363600228f230800000000000000
+      internalID: 3672722881183472186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_129
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343c87c8f7f01af80800000000000000
+      internalID: -8097173614543453373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_130
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9582925e3de21cbb0800000000000000
+      internalID: -4917597830494214055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_131
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ec8fa3b26495fb0800000000000000
+      internalID: -4658615188051145083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_132
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cb0dc1b6d95cc30800000000000000
+      internalID: 4379079296058178593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_133
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b8867db77304580800000000000000
+      internalID: -8845008663121196239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_134
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4adc0d6291dae790800000000000000
+      internalID: -7499951802607150518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_135
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ef0b94227c03920800000000000000
+      internalID: 2968091104516308638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_136
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea86982e9e2703c0800000000000000
+      internalID: -4393491654655964446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_137
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f2886e822ac36b0800000000000000
+      internalID: -5315195163653951693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_138
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec283a175ee9d580800000000000000
+      internalID: -8801741938849469204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_139
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d7e965834636220800000000000000
+      internalID: 2477934413118078215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_140
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d116cc5ef043f9b0800000000000000
+      internalID: -5047619296129838631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_141
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b44a96a7d884b950800000000000000
+      internalID: 6463941824977978549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_142
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8660db841d43f40800000000000000
+      internalID: 5707416738124425417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_143
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 449
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8999fa6dfb4147820800000000000000
+      internalID: 2914977672988694936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_144
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da00b1286bda7be0800000000000000
+      internalID: -1478628287349519658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_145
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c5c7d1938f42fc0800000000000000
+      internalID: -3520416084505371586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_146
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0eff29e1b52e3bc0800000000000000
+      internalID: -3801559589402444274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_147
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9fc8794ffd2bad0800000000000000
+      internalID: -2687839785979151968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_148
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b16e418e42d2690800000000000000
+      internalID: -7625398014866744562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_149
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098f2c69d46a6d000800000000000000
+      internalID: 60418497188133008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_150
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7bbd96f084555d0800000000000000
+      internalID: -3074471939572779058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_151
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e32e8660f0c78a0800000000000000
+      internalID: -6306148858021658989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_152
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6167db5b0c3b7c0800000000000000
+      internalID: -4056686952530438493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_153
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fa2f4e3c5f1c340800000000000000
+      internalID: 4882453692754866060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_154
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c287308341d47a9a0800000000000000
+      internalID: -6221919610954614740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_155
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ae244c88448b7e0800000000000000
+      internalID: -1749573101034476995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_156
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841dd7e7199579ce0800000000000000
+      internalID: -1398550677847944888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_157
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a67867dade43fe0800000000000000
+      internalID: -1210081070582109691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_158
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bcd238e5494ec40800000000000000
+      internalID: 5540716575221205766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_159
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 385
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548d24701b50dbcd0800000000000000
+      internalID: -2540868356877920187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_160
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62819532918dab9a0800000000000000
+      internalID: -6216418733152724954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_161
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8359bd5b0a77dc3d0800000000000000
+      internalID: -3184757829351533256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_162
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c06074849c61f60800000000000000
+      internalID: 8004806699964042347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_163
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee8f3ce790a0fc00800000000000000
+      internalID: 932421697229786856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_164
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddecfdd0d588a6e80800000000000000
+      internalID: -8184579439546347811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_165
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff75c358e502a19b0800000000000000
+      internalID: -5108735236964067329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_166
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecf8b40956a0d0e0800000000000000
+      internalID: -2247113312796345111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_167
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949e401f9a6f45e00800000000000000
+      internalID: 1032721424328223049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_168
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060e996705a009d90800000000000000
+      internalID: -7093158072405073824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_169
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922f93c76f5ddb7c0800000000000000
+      internalID: -4053848834940734935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_170
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939a3e93fed576150800000000000000
+      internalID: 5865760321723148601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_171
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636dfd20d31cb1370800000000000000
+      internalID: 8294435606518289974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_172
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f1cb3d9e40d5890800000000000000
+      internalID: -7467807204784201915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_173
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b42b3cd71b16af0800000000000000
+      internalID: -404847337774363765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_174
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b28bf084ad98dfd0800000000000000
+      internalID: -2316928678417956175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_175
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 321
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dc03b507b659050800000000000000
+      internalID: 5806665424874556732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_176
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba16d19dd609d740800000000000000
+      internalID: 5177176795343362749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_177
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0c17d7f9a21c840800000000000000
+      internalID: 5242518305728741607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_178
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a8d94cf7591b190800000000000000
+      internalID: -7948407491340170617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_179
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2161885f292ac3670800000000000000
+      internalID: 8519863347146397202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_180
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6e6e7ebba485e50800000000000000
+      internalID: 6798265808425772752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_181
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3b380060a95a8a0800000000000000
+      internalID: -6294455553611287579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_182
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ef0c0d690ddd6a0800000000000000
+      internalID: -6422748147394478539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_183
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53df9e2fd1375de90800000000000000
+      internalID: -7001563473210901195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_184
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f772532451519600800000000000000
+      internalID: 473248857662322679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_185
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de2afe58fb08a380800000000000000
+      internalID: -8959898297280352560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_186
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d6cd026c36a0ad0800000000000000
+      internalID: -2735264121068163729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_187
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707297d00a38b12f0800000000000000
+      internalID: -1001061768715753721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_188
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c367aa9f638223e0800000000000000
+      internalID: -2079955562532478013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_189
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf0afddbfb190fc0800000000000000
+      internalID: -3528258064493178958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_190
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d12e933b147f420800000000000000
+      internalID: 2663669942639009163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_191
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 257
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac7ed1f14e5561c0800000000000000
+      internalID: -4511095814417908571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_192
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c006d9603304ec0800000000000000
+      internalID: -3584809199883777024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_193
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747267e046d6235b0800000000000000
+      internalID: -5390125527502280889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_194
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82952a74e601e36b0800000000000000
+      internalID: -5314792444416337624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_195
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b36af01f4f83b8e0800000000000000
+      internalID: -1678840666329029704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_196
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2ab1e84baa14690800000000000000
+      internalID: -7619621402079157517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_197
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55b0379be374e2e0800000000000000
+      internalID: -2097424070756747937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_198
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f61b8137fe3bbf00800000000000000
+      internalID: 1133568962622854896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_199
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34553aed1cb1944f0800000000000000
+      internalID: -844112935677373117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_200
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c6b50669c078660800000000000000
+      internalID: 7387887553725819905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_201
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604f01afda4926d60800000000000000
+      internalID: 7882025772797457414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_202
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151a53afb83b367c0800000000000000
+      internalID: -4079219423687892655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_203
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d59cb5ba2197950800000000000000
+      internalID: 6447204868746206619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_204
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e85debca66f4500800000000000000
+      internalID: 382637385471856251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_205
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e18a25f664a34bb0800000000000000
+      internalID: -4952934403070590494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_206
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4dbe7af68c8d0d0800000000000000
+      internalID: -3397745536966863618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_207
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 193
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bba4f4918d6628d0800000000000000
+      internalID: -2871487309084841040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_208
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9785b294dd3569dd0800000000000000
+      internalID: -2479702334940424071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_209
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36da553455e49b50800000000000000
+      internalID: 6599151503839778363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_210
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7b3c3a2a2087d40800000000000000
+      internalID: 5582214635681200062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_211
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76255b11918d1f90800000000000000
+      internalID: -6981281387125594502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_212
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7667bf931d49f56e0800000000000000
+      internalID: -1846593695856757145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_213
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a1fcc9a3269be40800000000000000
+      internalID: 5672673209528293897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_214
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da39185653c36a30800000000000000
+      internalID: 4207421252506827473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_215
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828b47df7d6b513c0800000000000000
+      internalID: -4389401223016171480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_216
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ba812fdbe25fa50800000000000000
+      internalID: 6554196226053024654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_217
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de8a201f7f7114f0800000000000000
+      internalID: -859765870142255399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_218
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95463802aef65fa70800000000000000
+      internalID: 8860110893279831129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_219
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf11694c056d52020800000000000000
+      internalID: 2316493225735885308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_220
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af030a5082e043e0800000000000000
+      internalID: -2071406787696586839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_221
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e033a73a4c2d0ee0800000000000000
+      internalID: -1293328820712820504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_222
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b433ae10d7eda10800000000000000
+      internalID: 1936122336993561379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_223
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 129
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c888f8292f76240800000000000000
+      internalID: 4785059840391679130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_224
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b19fd0bb7fddbfc0800000000000000
+      internalID: -3477377614918741577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_225
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d81d882281a82a00800000000000000
+      internalID: 732012519845861591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_226
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b88fe05d359269b0800000000000000
+      internalID: -5088340538391820111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_227
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cbf0d496ce508a0800000000000000
+      internalID: -6339400963445507014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_228
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bc64bfa5353b940800000000000000
+      internalID: 5310680035827829587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_229
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a865b8a211f781000800000000000000
+      internalID: 6895111146002058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_230
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac62528a43b35c580800000000000000
+      internalID: -8807568398907791670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_231
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620d8272191c33d30800000000000000
+      internalID: 4410081289297252390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_232
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea0b95f99b6d8b60800000000000000
+      internalID: 7749968842769238766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_233
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd811b3e328fa700800000000000000
+      internalID: 553804482980449718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_234
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64943f955ae60d7a0800000000000000
+      internalID: -6354457417761994426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_235
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d67de964703be30800000000000000
+      internalID: 4517962851076762986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_236
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84e9b3dfcd5437f0800000000000000
+      internalID: -633778500360608625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_237
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9e9a3be0ff47660800000000000000
+      internalID: 7382806127775967667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_238
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91356057c8e3dc1a0800000000000000
+      internalID: -6787700290397777127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_239
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635101f786843b3f0800000000000000
+      internalID: -886285088016296650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_240
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b619357b8f2a070800000000000000
+      internalID: 8116322944739797861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_241
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4559dcb3da09ed0800000000000000
+      internalID: -2409235328279423836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_242
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea1e957ea966d040800000000000000
+      internalID: 4672037861461990115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_243
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3b8fe01503e9ee0800000000000000
+      internalID: -1252510521660755019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_244
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc40450c6cf4ed70800000000000000
+      internalID: 9071653090305789108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_245
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14601311393d3ea00800000000000000
+      internalID: 784703388694677057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_246
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ceeb4a2049f4110800000000000000
+      internalID: 1247378360879737866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_247
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56535f7caf1bfd20800000000000000
+      internalID: 3313276776592135771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_248
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d927048a8cdb90dd0800000000000000
+      internalID: -2519273847023177059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_249
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6072e03caa93a4b40800000000000000
+      internalID: 5425212106700891910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_250
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b11ff3057ddec6a0800000000000000
+      internalID: -6426956123563159111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_251
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc4145aebf5a34c0800000000000000
+      internalID: -4307024821205513020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_252
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed2abce62c14eef0800000000000000
+      internalID: -79907939879866903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_253
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f84b9f9d3fe405c0800000000000000
+      internalID: -4250009100381107984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_254
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0292d795829e229c0800000000000000
+      internalID: -3953341163368535776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth1024x1024_256Frames_255
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d84bd09fae62760800000000000000
+      internalID: 7432886590419275098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7770f3a04b9d7e64e827e3aa2fac4468
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

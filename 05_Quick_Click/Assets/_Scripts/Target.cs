@@ -40,17 +40,19 @@ public class Target : MonoBehaviour
     }
     private void OnMouseDown()//Si el jugador presiona el botón del ratón sobre un target
     {
-        Destroy(gameObject);//Destruimos el target
-        Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);//Se invoca un efecto
-        gameManager.UpdateScore(pointValue);//Actualizamos la puntuación
-        
-        if (gameObject.tag == "BadTarget") //Si se ha dado a un target malo se produce el Game Over
+        //Siempre que el estado del juego no sea el de Game Over
+        if (gameManager.gameState == GameManager.GameState.inGame)
         {
-            gameManager.GameOver();
+            Destroy(gameObject); //Destruimos el target
+            Instantiate(explosionParticle, transform.position,
+                explosionParticle.transform.rotation); //Se invoca un efecto
+            gameManager.UpdateScore(pointValue); //Actualizamos la puntuación
+
+            if (gameObject.tag == "BadTarget") //Si se ha dado a un target malo se produce el Game Over
+            {
+                gameManager.GameOver();
+            }
         }
-          
-        
-        
     }
 
     private void OnTriggerEnter(Collider other)//Si un target bueno cae en la zona de muerte
