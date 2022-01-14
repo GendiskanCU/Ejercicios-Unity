@@ -38,22 +38,30 @@ public class Target : MonoBehaviour
         _rigidbody.AddTorque(RandomTorque(), RandomTorque(), RandomTorque());
 
     }
-    private void OnMouseDown()//Si el jugador presiona el botón del ratón sobre el target
+    private void OnMouseDown()//Si el jugador presiona el botón del ratón sobre un target
     {
         Destroy(gameObject);//Destruimos el target
         Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);//Se invoca un efecto
         gameManager.UpdateScore(pointValue);//Actualizamos la puntuación
+        
+        if (gameObject.tag == "BadTarget") //Si se ha dado a un target malo se produce el Game Over
+        {
+            gameManager.GameOver();
+        }
+          
+        
+        
     }
 
-    private void OnTriggerEnter(Collider other)//Si el target cae en la zona de muerte
+    private void OnTriggerEnter(Collider other)//Si un target bueno cae en la zona de muerte
     {
         if (other.gameObject.CompareTag("KillZone"))
         {
-            Destroy(gameObject);//Se destruye
-            //Y hay una penalización en la puntuación (excepto en aquellos target que ya tenían una puntuación negativa)
-            if (pointValue > 0)
+            Destroy(gameObject);//Se destruye y se produce el Game Over
+            if (gameObject.tag == "GoodTarget")
             {
-                gameManager.UpdateScore(penalizeFall);
+                //gameManager.UpdateScore(penalizeFall);
+                gameManager.GameOver();
             }
         }
     }

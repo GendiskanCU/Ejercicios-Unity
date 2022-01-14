@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float spawnRate = 1.0f;
 
     [SerializeField] private TextMeshProUGUI scoreText;
+    [SerializeField] private TextMeshProUGUI gameOverText;
 
     private int score;
     private int Score//Variable autocomputada. Evitaremos que el score sea en ningún momento menor de cero
@@ -48,5 +49,11 @@ public class GameManager : MonoBehaviour
     {
         Score += scoreToAdd;
         scoreText.text = "PUNTUACION:\n\n" + score;
+    }
+
+    /// <summary> Activa el mensaje de GameOver </summary>
+    public void GameOver()
+    {
+        gameOverText.gameObject.SetActive(true);
     }
 }

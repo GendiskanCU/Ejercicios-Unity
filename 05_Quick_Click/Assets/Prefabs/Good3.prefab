@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8643297829988336663}
   m_Layer: 6
   m_Name: Good3
-  m_TagString: Untagged
+  m_TagString: GoodTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
