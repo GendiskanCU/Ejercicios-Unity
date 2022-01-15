@@ -55,8 +55,8 @@
      <Compile Include="Assets\_Scripts\GameManager.cs" />
      <Compile Include="Assets\_Scripts\Target.cs" />
      <Compile Include="Assets\_Scripts\FollowMouse.cs" />
-     <Compile Include="Assets\Course Library\_Source_Files\Scripts\DestroyAfterDelay.cs" />
      <Compile Include="Assets\_Scripts\DifficultyButton.cs" />
+     <Compile Include="Assets\Course Library\_Source_Files\Scripts\DestroyAfterDelay.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Course Library\Fonts\Margarine\OFL.txt" />

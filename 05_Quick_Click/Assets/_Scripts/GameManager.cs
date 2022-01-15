@@ -1,9 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;//Para utilizar los TextMeshPro
 using UnityEngine.UI;//Para utilizar los Button de la UI
-using UnityEngine.SceneManagement;//Para manejar las escenas
+using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random; //Para manejar las escenas
 
 public class GameManager : MonoBehaviour
 {
@@ -35,9 +37,13 @@ public class GameManager : MonoBehaviour
         set { score = Mathf.Clamp(value, 0, 99999); } //score se mantendrá entre 0 y 99999
         get { return score; }
     }
-    
-    
-    
+
+
+    private void Start()
+    {
+        //Se nos muestra la máxima puntuación
+        ShowMaxScore();
+    }
 
     /// <summary> Instancia un targetPrefab cada spawnRate segundos </summary>
     IEnumerator SpawnTarget()
@@ -55,7 +61,7 @@ public class GameManager : MonoBehaviour
     {
         //Ocultamos el panel del título
         titleScreen.gameObject.SetActive(false);
-        
+
         //Estado actual del juego: jugando
         gameState = GameState.inGame;
         
@@ -75,7 +81,7 @@ public class GameManager : MonoBehaviour
     public void UpdateScore(int scoreToAdd)
     {
         Score += scoreToAdd;
-        scoreText.text = "PUNTUACION:\n\n" + score;
+        scoreText.text = "SCORE:\n\n" + score;
     }
 
     /// <summary> Activa el mensaje de GameOver </summary>
@@ -84,6 +90,7 @@ public class GameManager : MonoBehaviour
         gameState = GameState.gameOver; //Se cambia el estado de la partida
         gameOverText.gameObject.SetActive(true);//Se muestra el mensaje de Game Over
         restartButton.gameObject.SetActive(true);//Se muestra el botón de restablecer
+        SetMaxScore();//Comprueba la máxima puntuación
     }
 
     /// <summary> Reinicia la escena actual </summary>
@@ -91,6 +98,21 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
     
-    
+    /// <summary> Carga la máxima puntuación en el sistema y la muestra </summary>
+    public void ShowMaxScore()
+    {
+        int maxScore = PlayerPrefs.GetInt("MAX_SCORE", 0);
+        scoreText.text = "Max. Score: \n\n" + maxScore;
+    }
+
+    /// <summary> Comprueba si se ha superado la máxima puntuación y la guarda en caso afirmativo </summary>
+    private void SetMaxScore()
+    {
+        if(score > PlayerPrefs.GetInt("MAX_SCORE", 0))
+        {
+            PlayerPrefs.SetInt("MAX_SCORE", score);
+        }
+    }
 }

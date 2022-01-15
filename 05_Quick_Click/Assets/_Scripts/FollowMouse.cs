@@ -13,10 +13,5 @@ public class FollowMouse : MonoBehaviour
     {
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         transform.position = new Vector3(mousePos.x, mousePos.y, 0);
-
-        if (Input.GetMouseButtonDown(0))
-        {
-            particleAttack.Play();
-        }
     }
 }

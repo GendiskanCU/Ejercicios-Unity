@@ -38,7 +38,7 @@ public class Target : MonoBehaviour
         _rigidbody.AddTorque(RandomTorque(), RandomTorque(), RandomTorque());
 
     }
-    private void OnMouseDown()//Si el jugador presiona el botón del ratón sobre un target
+    private void OnMouseOver()//Si el jugador coloca el cursor sobre un target
     {
         //Siempre que el estado del juego no sea el de Game Over
         if (gameManager.gameState == GameManager.GameState.inGame)
