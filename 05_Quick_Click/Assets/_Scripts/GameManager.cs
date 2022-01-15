@@ -31,6 +31,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject titleScreen;//Pantalla de título y selección de dificultad
 
     private int score;//Puntuación
+
+    private int numberOfLives = 4;//Número de vidas
+
+    public List<GameObject> lives;//Sprites que muestran el número de vidas que nos quedan
     
     private int Score//Variable autocomputada. Evitaremos que el score sea en ningún momento menor de cero
     {
@@ -68,6 +72,15 @@ public class GameManager : MonoBehaviour
         //Establecemos el tiempo de spawneo en función de la dificultad elegida
         spawnRate /= difficulty;
         
+        //Establecemos el número de vidas en función de la dificultad elegida
+        numberOfLives -= difficulty;
+        
+        //Activamos en la UI el número de iconos correspondiente a las vidas que se tienen
+        for (int i = 0; i < numberOfLives; i++)
+        {
+            lives[i].gameObject.SetActive(true);
+        }
+        
         //Iniciamos la corutina de spawneo
         StartCoroutine("SpawnTarget");
         
@@ -87,10 +100,26 @@ public class GameManager : MonoBehaviour
     /// <summary> Activa el mensaje de GameOver </summary>
     public void GameOver()
     {
-        gameState = GameState.gameOver; //Se cambia el estado de la partida
-        gameOverText.gameObject.SetActive(true);//Se muestra el mensaje de Game Over
-        restartButton.gameObject.SetActive(true);//Se muestra el botón de restablecer
-        SetMaxScore();//Comprueba la máxima puntuación
+        numberOfLives--;//Reduce el número de vidas
+
+        if (numberOfLives >= 0)
+        {
+            //Apagamos el color del icono que representa la vida que se acaba de perder
+            Image livesImage = lives[numberOfLives].GetComponent<Image>(); //Capturamos la imagen del icono
+            var tempColor = livesImage.color; //Guardamos su color en una variable temporal
+            tempColor.a = 0.3f; //Le bajamos la transparencia al 30%
+            livesImage.color = tempColor; //Y la aplicamos al color del icono
+        }
+
+        Debug.Log("Vidas restantes: " + numberOfLives);
+
+        if (numberOfLives <= 0)//Cuando se hayan agotado las vidas
+        {
+            gameState = GameState.gameOver; //Se cambia el estado de la partida
+            gameOverText.gameObject.SetActive(true); //Se muestra el mensaje de Game Over
+            restartButton.gameObject.SetActive(true); //Se muestra el botón de restablecer
+            SetMaxScore(); //Comprueba la máxima puntuación
+        }
     }
 
     /// <summary> Reinicia la escena actual </summary>

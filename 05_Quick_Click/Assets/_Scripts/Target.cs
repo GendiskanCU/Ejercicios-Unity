@@ -48,7 +48,7 @@ public class Target : MonoBehaviour
                 explosionParticle.transform.rotation); //Se invoca un efecto
             gameManager.UpdateScore(pointValue); //Actualizamos la puntuación
 
-            if (gameObject.tag == "BadTarget") //Si se ha dado a un target malo se produce el Game Over
+            if (gameObject.tag == "BadTarget") //Si se ha dado a un target malo se llama al Game Over
             {
                 gameManager.GameOver();
             }
@@ -59,10 +59,9 @@ public class Target : MonoBehaviour
     {
         if (other.gameObject.CompareTag("KillZone"))
         {
-            Destroy(gameObject);//Se destruye y se produce el Game Over
+            Destroy(gameObject);//Se destruye y se llama al Game Over
             if (gameObject.tag == "GoodTarget")
             {
-                //gameManager.UpdateScore(penalizeFall);
                 gameManager.GameOver();
             }
         }
