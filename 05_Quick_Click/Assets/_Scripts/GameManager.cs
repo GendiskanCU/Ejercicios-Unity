@@ -21,33 +21,23 @@ public class GameManager : MonoBehaviour
     //Creamos una lista de objetos que se pueden instanciar
     [SerializeField] private List<GameObject> targetPrefabs;
 
-    [SerializeField] private float spawnRate = 1.0f;
+    private float spawnRate = 2.0f;//Tiempo de spawneo de nuevos target
 
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private TextMeshProUGUI gameOverText;
     [SerializeField] private Button restartButton;
+    [SerializeField] private GameObject titleScreen;//Pantalla de título y selección de dificultad
 
-    private int score;
+    private int score;//Puntuación
+    
     private int Score//Variable autocomputada. Evitaremos que el score sea en ningún momento menor de cero
     {
         set { score = Mathf.Clamp(value, 0, 99999); } //score se mantendrá entre 0 y 99999
         get { return score; }
     }
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        //Estado actual del juego: jugando
-        gameState = GameState.inGame;
-        
-        //Iniciamos la corutina de spawneo
-        StartCoroutine("SpawnTarget");
-        
-        //Iniciamos la puntuación y la mostramos en la UI
-        Score = 0;
-        UpdateScore(0);
-    }
-
+    
+    
 
     /// <summary> Instancia un targetPrefab cada spawnRate segundos </summary>
     IEnumerator SpawnTarget()
@@ -58,6 +48,26 @@ public class GameManager : MonoBehaviour
             int index = Random.Range(0, targetPrefabs.Count);
             Instantiate(targetPrefabs[index]);
         }
+    }
+
+    /// <summary> Inicia un juego </summary><param name="difficulty">Nivel de dificultad del nuevo juego</param>
+    public void StartGame(int difficulty)
+    {
+        //Ocultamos el panel del título
+        titleScreen.gameObject.SetActive(false);
+        
+        //Estado actual del juego: jugando
+        gameState = GameState.inGame;
+        
+        //Establecemos el tiempo de spawneo en función de la dificultad elegida
+        spawnRate /= difficulty;
+        
+        //Iniciamos la corutina de spawneo
+        StartCoroutine("SpawnTarget");
+        
+        //Iniciamos la puntuación y la mostramos en la UI
+        Score = 0;
+        UpdateScore(0);
     }
 
     /// <summary> Actualiza la puntuación y la muestra en la UI </summary>
