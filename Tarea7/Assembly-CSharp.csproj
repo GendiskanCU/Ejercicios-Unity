@@ -52,10 +52,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Challenge 5\Scripts\DestroyObjectX.cs" />
-     <Compile Include="Assets\Challenge 5\Scripts\GameManagerX.cs" />
-     <Compile Include="Assets\Challenge 5\Scripts\TargetX.cs" />
      <Compile Include="Assets\Challenge 5\Scripts\DifficultyButtonX.cs" />
+     <Compile Include="Assets\Challenge 5\Scripts\GameManagerX.cs" />
+     <Compile Include="Assets\Challenge 5\Scripts\DestroyObjectX.cs" />
+     <Compile Include="Assets\Challenge 5\Scripts\TargetX.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />

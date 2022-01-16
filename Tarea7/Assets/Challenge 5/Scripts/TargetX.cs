@@ -4,24 +4,23 @@ using UnityEngine;
 
 public class TargetX : MonoBehaviour
 {
-    private Rigidbody rb;
     private GameManagerX gameManagerX;
     public int pointValue;
     public GameObject explosionFx;
 
     public float timeOnScreen = 1.0f;
 
-    private float minValueX = -3.75f; // the x value of the center of the left-most square
-    private float minValueY = -3.75f; // the y value of the center of the bottom-most square
-    private float spaceBetweenSquares = 2.5f; // the distance between the centers of squares on the game board
-    
+    private int spawnX, spawnY;//Celda en X,Y en las que spawnea el target
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        //Capturamos el script GameManagerX
         gameManagerX = GameObject.Find("Game Manager").GetComponent<GameManagerX>();
+        
+        //Guardamos la celda en la que ha spawneado el target, para liberarla tras su destrucción
+        spawnX = gameManagerX.SquareX;
+        spawnY = gameManagerX.SquareY;
 
-        transform.position = RandomSpawnPosition(); 
         StartCoroutine(RemoveObjectRoutine()); // begin timer before target leaves screen
 
     }
@@ -31,30 +30,13 @@ public class TargetX : MonoBehaviour
     {
         if (gameManagerX.isGameActive)
         {
+            gameManagerX.UpdateBoardGame(0, spawnX, spawnY);//Libera la celda que ocupaba
             Destroy(gameObject);
             gameManagerX.UpdateScore(pointValue);
             Explode();
         }
                
     }
-
-    // Generate a random spawn position based on a random index from 0 to 3
-    Vector3 RandomSpawnPosition()
-    {
-        float spawnPosX = minValueX + (RandomSquareIndex() * spaceBetweenSquares);
-        float spawnPosY = minValueY + (RandomSquareIndex() * spaceBetweenSquares);
-
-        Vector3 spawnPosition = new Vector3(spawnPosX, spawnPosY, 0);
-        return spawnPosition;
-
-    }
-
-    // Generates random square index from 0 to 3, which determines which square the target will appear in
-    int RandomSquareIndex ()
-    {
-        return Random.Range(0, 4);
-    }
-
 
     // If target that is NOT the bad object collides with sensor, trigger game over
     private void OnTriggerEnter(Collider other)

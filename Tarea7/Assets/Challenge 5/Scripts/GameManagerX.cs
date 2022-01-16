@@ -1,9 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class GameManagerX : MonoBehaviour
 {
@@ -14,21 +16,48 @@ public class GameManagerX : MonoBehaviour
 
     public List<GameObject> targetPrefabs;
 
-    private int score;
-    private float spawnRate = 1.5f;
+    private int _score;
+    public int Score
+    {
+        set { _score = Mathf.Clamp(value, 0, 999999); }
+        get { return _score; }
+    }
+    
+    private float spawnRate = 5f;
     public bool isGameActive;
 
     private float spaceBetweenSquares = 2.5f; 
     private float minValueX = -3.75f; //  x value of the center of the left-most square
     private float minValueY = -3.75f; //  y value of the center of the bottom-most square
-    
-    // Start the game, remove title screen, reset score, and adjust spawnRate based on difficulty button clicked
-    public void StartGame()
+
+    private int[,] boardGame = new int[4, 4]; //El tablero de juego 
+
+    private int _squareX;//Posición X de la celda en la que se instancia el último target
+    public int SquareX
     {
-        spawnRate /= 5;
+        get { return _squareX; }
+    }
+    
+    private int _squareY;//Posición Y de la celda en la que se instancia el último target
+    public int SquareY
+    {
+        get { return _squareY; }
+    }
+
+
+    private void Start()
+    {
+        ClearBoardGame();
+    }
+
+
+    // Start the game, remove title screen, reset score, and adjust spawnRate based on difficulty button clicked
+    public void StartGame(int difficulty)
+    {
+        spawnRate /= difficulty;
         isGameActive = true;
         StartCoroutine(SpawnTarget());
-        score = 0;
+        Score = 0;
         UpdateScore(0);
         titleScreen.SetActive(false);
     }
@@ -52,10 +81,34 @@ public class GameManagerX : MonoBehaviour
     // Generate a random spawn position based on a random index from 0 to 3
     Vector3 RandomSpawnPosition()
     {
-        float spawnPosX = minValueX + (RandomSquareIndex() * spaceBetweenSquares);
-        float spawnPosY = minValueY + (RandomSquareIndex() * spaceBetweenSquares);
+        bool freeSquareFound = false;
+        
+        _squareX = RandomSquareIndex();
+        _squareY = RandomSquareIndex();
+        
+        //Generará una celda nueva hasta encontrar una libre
+        while (!freeSquareFound)
+        {
+            if (boardGame[_squareY, _squareX] == 0)
+            {
+                freeSquareFound = true;
+            }
+            else
+            {
+                _squareX = RandomSquareIndex();
+                _squareY = RandomSquareIndex();
+            }
+
+        }
+        
+        float spawnPosX = minValueX + (_squareX * spaceBetweenSquares);
+        float spawnPosY = minValueY + (_squareY * spaceBetweenSquares);
 
         Vector3 spawnPosition = new Vector3(spawnPosX, spawnPosY, 0);
+        
+        //Marca la celda del tablero como ocupada
+        UpdateBoardGame(1, _squareX, _squareY);
+        
         return spawnPosition;
 
     }
@@ -69,15 +122,15 @@ public class GameManagerX : MonoBehaviour
     // Update score with value from target clicked
     public void UpdateScore(int scoreToAdd)
     {
-        score += scoreToAdd;
-        scoreText.text = "score";
+        Score += scoreToAdd;
+        scoreText.text = "Score:\n" + Score;
     }
 
     // Stop game, bring up game over text and restart button
     public void GameOver()
     {
         gameOverText.gameObject.SetActive(true);
-        restartButton.gameObject.SetActive(false);
+        restartButton.gameObject.SetActive(true);
         isGameActive = false;
     }
 
@@ -85,6 +138,28 @@ public class GameManagerX : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    //Pone a 0 el tablero de juego (todas las celdas están libres)
+    private void ClearBoardGame()
+    {
+        for (int i = 0; i < 4; i++)
+        {
+            for (int j = 0; j < 4; j++)
+            {
+                boardGame[i, j] = 0;
+            }
+        }
+    }
+    
+    /// <summary> Actualiza el tablero de juego </summary>
+    /// <param name="action">0 liberar celda ó 1 ocupar celda</param>
+    /// <param name="coordX">Coordenada X de la celda</param>
+    /// <param name="coordY">Coordenada Y de la celda</param>
+    public void UpdateBoardGame(int action, int coordX, int coordY)
+    {
+        boardGame[coordY, coordX] = action;
+        Debug.Log("Coordenadas: (" + coordY + "," + coordX + ")-> " + boardGame[coordY, coordX]);
     }
 
 }
