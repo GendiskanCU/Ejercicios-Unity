@@ -10,9 +10,8 @@ using Random = UnityEngine.Random;
 public class GameManagerX : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
-    public TextMeshProUGUI gameOverText;
-    public GameObject titleScreen;
-    public Button restartButton; 
+    public GameObject gameOverPanel;
+    public GameObject titlePanel;
 
     public List<GameObject> targetPrefabs;
 
@@ -23,7 +22,7 @@ public class GameManagerX : MonoBehaviour
         get { return _score; }
     }
     
-    private float spawnRate = 5f;
+    private float spawnRate = 1.5f;
     public bool isGameActive;
 
     private float spaceBetweenSquares = 2.5f; 
@@ -59,7 +58,7 @@ public class GameManagerX : MonoBehaviour
         StartCoroutine(SpawnTarget());
         Score = 0;
         UpdateScore(0);
-        titleScreen.SetActive(false);
+        titlePanel.SetActive(false);
     }
 
     // While game is active spawn a random target
@@ -129,8 +128,7 @@ public class GameManagerX : MonoBehaviour
     // Stop game, bring up game over text and restart button
     public void GameOver()
     {
-        gameOverText.gameObject.SetActive(true);
-        restartButton.gameObject.SetActive(true);
+        gameOverPanel.gameObject.SetActive(true);
         isGameActive = false;
     }
 
@@ -159,7 +157,7 @@ public class GameManagerX : MonoBehaviour
     public void UpdateBoardGame(int action, int coordX, int coordY)
     {
         boardGame[coordY, coordX] = action;
-        Debug.Log("Coordenadas: (" + coordY + "," + coordX + ")-> " + boardGame[coordY, coordX]);
+        //Debug.Log("Coordenadas: (" + coordY + "," + coordX + ")-> " + boardGame[coordY, coordX]);
     }
 
 }

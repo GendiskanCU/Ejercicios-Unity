@@ -12,17 +12,21 @@ public class TargetX : MonoBehaviour
 
     private int spawnX, spawnY;//Celda en X,Y en las que spawnea el target
 
+    private GameObject cavasHitScore;//Muestra un cuadro de texto con la puntuación otorgada por el target
+
     void Start()
     {
         //Capturamos el script GameManagerX
         gameManagerX = GameObject.Find("Game Manager").GetComponent<GameManagerX>();
+
+        cavasHitScore = GameObject.Find("Canvas Hit Score");
         
         //Guardamos la celda en la que ha spawneado el target, para liberarla tras su destrucción
         spawnX = gameManagerX.SquareX;
         spawnY = gameManagerX.SquareY;
 
         StartCoroutine(RemoveObjectRoutine()); // begin timer before target leaves screen
-
+        StartCoroutine(DecreasePointValue()); //disminuirá la puntuación con el paso del tiempo
     }
 
     // When target is clicked, destroy it, update score, and generate explosion
@@ -30,6 +34,7 @@ public class TargetX : MonoBehaviour
     {
         if (gameManagerX.isGameActive)
         {
+            ShowScore();
             gameManagerX.UpdateBoardGame(0, spawnX, spawnY);//Libera la celda que ocupaba
             Destroy(gameObject);
             gameManagerX.UpdateScore(pointValue);
@@ -67,4 +72,24 @@ public class TargetX : MonoBehaviour
 
     }
 
+    //Disminuye el valor del pointValue conforme el target permanece en la escena
+    IEnumerator DecreasePointValue()
+    {
+        while (gameManagerX.isGameActive)
+        {
+            yield return new WaitForSeconds(timeOnScreen/5);//Cada 5ª parte de tiempo que permanece en escena
+            //Se descontará 1 al valor, aunque nunca será menor de 1
+            if (pointValue > 1)//Y no afectará a los target que ya tengan puntuación negativa
+            {
+                pointValue -= 1;
+            }
+        }
+    }
+
+    //Muestra un cuadro de texto con la puntuación otorgada por el target
+    private void ShowScore()
+    {
+        cavasHitScore.transform.position = transform.position;//Colocamos el cuadro en la posición del target
+        cavasHitScore.GetComponent<ShowHitScore>().ShowHScore(pointValue);//Llamamos al método que muestra los puntos
+    }
 }
