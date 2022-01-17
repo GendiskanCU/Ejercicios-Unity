@@ -19,7 +19,7 @@ public class ShowHitScore : MonoBehaviour
         }
         else
         {
-            hitText.text = "-" + pointsToShow;
+            hitText.text = pointsToShow.ToString();
             hitText.color = Color.red;
         }
         hitText.gameObject.SetActive(true);
@@ -28,7 +28,7 @@ public class ShowHitScore : MonoBehaviour
 
     IEnumerator HideHScore()
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.25f);
         hitText.gameObject.SetActive(false);
     }
 }

@@ -12,9 +12,11 @@ public class GameManagerX : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public GameObject gameOverPanel;
     public GameObject titlePanel;
+    public GameObject countdownPanel;
+    public Slider sliderCountDown;//Representará el tiempo restante de partida
 
     public List<GameObject> targetPrefabs;
-
+    
     private int _score;
     public int Score
     {
@@ -24,6 +26,9 @@ public class GameManagerX : MonoBehaviour
     
     private float spawnRate = 1.5f;
     public bool isGameActive;
+
+    private int gameTime = 60;//Segundos de duración de cada partida
+    
 
     private float spaceBetweenSquares = 2.5f; 
     private float minValueX = -3.75f; //  x value of the center of the left-most square
@@ -55,10 +60,14 @@ public class GameManagerX : MonoBehaviour
     {
         spawnRate /= difficulty;
         isGameActive = true;
-        StartCoroutine(SpawnTarget());
         Score = 0;
         UpdateScore(0);
         titlePanel.SetActive(false);
+        scoreText.gameObject.SetActive(true);
+        countdownPanel.SetActive(true);
+        UpdateScore(0);
+        StartCoroutine(SpawnTarget());
+        StartCoroutine(UpdateSlideCountDown());
     }
 
     // While game is active spawn a random target
@@ -158,6 +167,21 @@ public class GameManagerX : MonoBehaviour
     {
         boardGame[coordY, coordX] = action;
         //Debug.Log("Coordenadas: (" + coordY + "," + coordX + ")-> " + boardGame[coordY, coordX]);
+    }
+
+    IEnumerator UpdateSlideCountDown()
+    {
+        while (isGameActive)
+        {
+            yield return new WaitForSeconds(1.0f);
+            gameTime--;
+            sliderCountDown.value = gameTime;
+            if (gameTime <= 0)
+            {
+                GameOver();
+            }
+
+        }
     }
 
 }
