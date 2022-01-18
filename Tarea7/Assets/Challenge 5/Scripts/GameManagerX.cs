@@ -15,6 +15,7 @@ public class GameManagerX : MonoBehaviour
     public GameObject countdownPanel;
     public GameObject followMouse;
     public Slider sliderCountDown;//Representará el tiempo restante de partida
+    private AudioSource ambientalMusic;
 
     public List<GameObject> targetPrefabs;
     
@@ -52,6 +53,7 @@ public class GameManagerX : MonoBehaviour
 
     private void Start()
     {
+        ambientalMusic = GameObject.Find("Main Camera").GetComponent<AudioSource>();
         ClearBoardGame();
     }
 
@@ -69,6 +71,7 @@ public class GameManagerX : MonoBehaviour
         Cursor.visible = false;
         followMouse.SetActive(true);
         UpdateScore(0);
+        ambientalMusic.Play();
         StartCoroutine(SpawnTarget());
         StartCoroutine(UpdateSlideCountDown());
     }
@@ -144,6 +147,7 @@ public class GameManagerX : MonoBehaviour
         Cursor.visible = true;
         gameOverPanel.gameObject.SetActive(true);
         isGameActive = false;
+        ambientalMusic.Stop();
     }
 
     // Restart game by reloading the scene
