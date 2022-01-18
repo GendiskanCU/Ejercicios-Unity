@@ -30,7 +30,7 @@ public class TargetX : MonoBehaviour
     }
 
     // When target is clicked, destroy it, update score, and generate explosion
-    private void OnMouseEnter()
+    private void OnMouseDown()
     {
         if (gameManagerX.isGameActive)
         {
@@ -52,6 +52,7 @@ public class TargetX : MonoBehaviour
         {
             gameManagerX.GameOver();
         } 
+        
 
     }
 
@@ -68,6 +69,10 @@ public class TargetX : MonoBehaviour
         if (gameManagerX.isGameActive)
         {
             transform.Translate(Vector3.forward * 5, Space.World);
+        }
+        if(gameObject.CompareTag("Bad"))//Si se trata de un target "malo"
+        {
+            gameManagerX.UpdateBoardGame(0, spawnX, spawnY);//Libera la celda que ocupaba
         }
 
     }

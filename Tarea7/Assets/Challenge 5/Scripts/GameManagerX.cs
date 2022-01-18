@@ -13,6 +13,7 @@ public class GameManagerX : MonoBehaviour
     public GameObject gameOverPanel;
     public GameObject titlePanel;
     public GameObject countdownPanel;
+    public GameObject followMouse;
     public Slider sliderCountDown;//Representará el tiempo restante de partida
 
     public List<GameObject> targetPrefabs;
@@ -65,6 +66,8 @@ public class GameManagerX : MonoBehaviour
         titlePanel.SetActive(false);
         scoreText.gameObject.SetActive(true);
         countdownPanel.SetActive(true);
+        Cursor.visible = false;
+        followMouse.SetActive(true);
         UpdateScore(0);
         StartCoroutine(SpawnTarget());
         StartCoroutine(UpdateSlideCountDown());
@@ -137,6 +140,8 @@ public class GameManagerX : MonoBehaviour
     // Stop game, bring up game over text and restart button
     public void GameOver()
     {
+        followMouse.SetActive(false);
+        Cursor.visible = true;
         gameOverPanel.gameObject.SetActive(true);
         isGameActive = false;
     }

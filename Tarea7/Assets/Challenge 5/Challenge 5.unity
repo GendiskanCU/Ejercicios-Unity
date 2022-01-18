@@ -510,7 +510,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &219638691
 Transform:
   m_ObjectHideFlags: 0
@@ -1340,6 +1340,7 @@ MonoBehaviour:
   gameOverPanel: {fileID: 1672780711}
   titlePanel: {fileID: 189669681}
   countdownPanel: {fileID: 1628263790}
+  followMouse: {fileID: 219638690}
   sliderCountDown: {fileID: 1882835513}
   targetPrefabs:
   - {fileID: 5817859361576445215, guid: 9cc97627ed18b449695d703ab651f5cd, type: 3}
