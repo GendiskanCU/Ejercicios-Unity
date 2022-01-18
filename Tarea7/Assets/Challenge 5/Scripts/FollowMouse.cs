@@ -9,11 +9,15 @@ public class FollowMouse : MonoBehaviour
 
     private Animator animator;
 
+    private AudioSource soundEffects;
+    public AudioClip soundMaze;
+
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
         animator.SetBool("hit", false);
+        soundEffects = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -47,6 +51,7 @@ public class FollowMouse : MonoBehaviour
         if (hit)
         {
             animator.SetBool("hit", true);
+            soundEffects.PlayOneShot(soundMaze);
             
         }
         else

@@ -20,7 +20,7 @@ public class TargetX : MonoBehaviour
         gameManagerX = GameObject.Find("Game Manager").GetComponent<GameManagerX>();
 
         cavasHitScore = GameObject.Find("Canvas Hit Score");
-        
+
         //Guardamos la celda en la que ha spawneado el target, para liberarla tras su destrucción
         spawnX = gameManagerX.SquareX;
         spawnY = gameManagerX.SquareY;
@@ -66,13 +66,16 @@ public class TargetX : MonoBehaviour
     IEnumerator RemoveObjectRoutine ()
     {
         yield return new WaitForSeconds(timeOnScreen);
+
         if (gameManagerX.isGameActive)
         {
+            if(gameObject.CompareTag("Bad"))//Si se trata de un target "malo"
+            {
+                gameManagerX.UpdateBoardGame(0, spawnX, spawnY);//Libera la celda que ocupaba
+                gameManagerX.UpdateScore(0);//Para que el gameManager reproduzca un sonido de flip
+            }
+            
             transform.Translate(Vector3.forward * 5, Space.World);
-        }
-        if(gameObject.CompareTag("Bad"))//Si se trata de un target "malo"
-        {
-            gameManagerX.UpdateBoardGame(0, spawnX, spawnY);//Libera la celda que ocupaba
         }
 
     }

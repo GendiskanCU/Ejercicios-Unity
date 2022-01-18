@@ -9,6 +9,9 @@ using Random = UnityEngine.Random;
 
 public class GameManagerX : MonoBehaviour
 {
+    public bool isGameActive;
+    
+    [Header("User Interface")]
     public TextMeshProUGUI scoreText;
     public GameObject gameOverPanel;
     public GameObject titlePanel;
@@ -17,9 +20,18 @@ public class GameManagerX : MonoBehaviour
     public Slider sliderCountDown;//Representará el tiempo restante de partida
     private AudioSource ambientalMusic;
 
+    [Header("Targets")]
     public List<GameObject> targetPrefabs;
+
+    [Header("Sounds")]
+    public AudioClip soundGameOver;
+    public AudioClip soundGoodTarget;
+    public AudioClip soundBadTarget;
+    public AudioClip soundFlip;
+    private AudioSource soundEffects;
     
-    private int _score;
+    
+    private int _score = 0;
     public int Score
     {
         set { _score = Mathf.Clamp(value, 0, 999999); }
@@ -27,7 +39,6 @@ public class GameManagerX : MonoBehaviour
     }
     
     private float spawnRate = 1.5f;
-    public bool isGameActive;
 
     private int gameTime = 60;//Segundos de duración de cada partida
     
@@ -54,6 +65,7 @@ public class GameManagerX : MonoBehaviour
     private void Start()
     {
         ambientalMusic = GameObject.Find("Main Camera").GetComponent<AudioSource>();
+        soundEffects = GetComponent<AudioSource>();
         ClearBoardGame();
     }
 
@@ -64,13 +76,12 @@ public class GameManagerX : MonoBehaviour
         spawnRate /= difficulty;
         isGameActive = true;
         Score = 0;
-        UpdateScore(0);
+        //UpdateScore(0);
         titlePanel.SetActive(false);
         scoreText.gameObject.SetActive(true);
         countdownPanel.SetActive(true);
         Cursor.visible = false;
         followMouse.SetActive(true);
-        UpdateScore(0);
         ambientalMusic.Play();
         StartCoroutine(SpawnTarget());
         StartCoroutine(UpdateSlideCountDown());
@@ -88,7 +99,6 @@ public class GameManagerX : MonoBehaviour
             {
                 Instantiate(targetPrefabs[index], RandomSpawnPosition(), targetPrefabs[index].transform.rotation);
             }
-            
         }
     }
 
@@ -136,6 +146,19 @@ public class GameManagerX : MonoBehaviour
     // Update score with value from target clicked
     public void UpdateScore(int scoreToAdd)
     {
+        if (scoreToAdd > 0)
+        {
+            soundEffects.PlayOneShot(soundGoodTarget);
+        }
+        else if (scoreToAdd < 0)
+        {
+            soundEffects.PlayOneShot(soundBadTarget);
+        }
+        else
+        {
+            soundEffects.PlayOneShot(soundFlip);
+        }
+        
         Score += scoreToAdd;
         scoreText.text = "Score:\n" + Score;
     }
@@ -143,6 +166,7 @@ public class GameManagerX : MonoBehaviour
     // Stop game, bring up game over text and restart button
     public void GameOver()
     {
+        soundEffects.PlayOneShot(soundGameOver);
         followMouse.SetActive(false);
         Cursor.visible = true;
         gameOverPanel.gameObject.SetActive(true);
