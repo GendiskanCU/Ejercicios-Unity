@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField]
-    private float turnSpeed;//Velocidad de giro del personaje
+    private float turnSpeed;//Velocidad de giro del personaje (grados)
     
     private Vector3 movement;//Vector de movimiento del personaje
     private Animator _animator;//Controlador de las animaciones del personaje
@@ -23,8 +23,9 @@ public class PlayerController : MonoBehaviour
         rotation = Quaternion.identity;//Nos aseguramos de que al principio no haya ninguna rotación
     }
 
-    // Update is called once per frame
-    void Update()
+    // Utilizamos el FixedUpdate porque vamos a hacer cálculos que luego se utilizarán sobre las físicas
+    // en el evento OnAnimatorMove, que sucede antes que el método Update
+    void FixedUpdate()
     {
         //Capturamos la pulsación de los botones de los ejes de movimiento
         float horizontal = Input.GetAxis("Horizontal");
@@ -47,21 +48,20 @@ public class PlayerController : MonoBehaviour
         // progresiva hacia la dirección del vector de movimiento:
         //Obteniendo la dirección de giro deseada
         Vector3 desiredForward = Vector3.RotateTowards(transform.forward, movement,
-            turnSpeed * Time.deltaTime, 0f);
+            turnSpeed * Time.fixedDeltaTime, 0f);//Usamos el equivalente DeltaTime de Fixed
         //La convertimos en una rotación (Quaternion) usando el método LookRotation
         //El método OnAnimatorMove lo utilizará para rotarlo en cada cambio de la animación
         rotation = Quaternion.LookRotation(desiredForward);
-        
-        
     }
 
     //Cuando haya que procesar algún cambio en la animación (evento de Unity)
     //Sobreescribe al asociado a la propiedad "Apply Root Motion" del componente Animator
     private void OnAnimatorMove()
     {
-        //Movemos al personaje, teniendo en cuenta que la animación ya lo mueve un poco
-        //Por lo que ahora en vez de usar time.deltatime usamos la cantidad de movimiento que ya aporta
-        //la animación
+        /*Movemos al personaje, teniendo en cuenta que la animación ya lo mueve un poco
+        por lo que ahora en vez de usar time.deltatime usamos la cantidad de movimiento que ya aporta
+        la animación. Conforme a esto, el movimiento será más rápido o más lento si desde código o
+        desde diseño modificamos la velocidad de la propia animación*/
         _rigidbody.MovePosition(_rigidbody.position + movement * _animator.deltaPosition.magnitude);
         
         //Rotamos al personaje
