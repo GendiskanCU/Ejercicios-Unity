@@ -216,6 +216,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &787026358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8714309597067009200, guid: 81f6b4b00616f94478819cbcf51a1063,
+    type: 3}
+  m_PrefabInstance: {fileID: 8714309595463844214}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &787026359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787026358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75d718fe9c1fb3c47abedd799279ade9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnSpeed: 20
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,6 +325,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4260261852023012116, guid: 81f6b4b00616f94478819cbcf51a1063,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714309597057625976, guid: 81f6b4b00616f94478819cbcf51a1063,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8714309597066903696, guid: 81f6b4b00616f94478819cbcf51a1063,
         type: 3}
       propertyPath: m_RootOrder
