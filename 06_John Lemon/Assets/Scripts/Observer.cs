@@ -12,7 +12,7 @@ public class Observer : MonoBehaviour
 
     private bool isPlayerInRange;//¿Está player en el rango de visión?
 
-    public GameEnding gameEnding;//Para capturar el script que finaliza la partida
+    public GameEnding gameEnding;//Para capturar el script que controla el fin de la partida
 
     private void OnTriggerEnter(Collider other)
     {
@@ -46,6 +46,9 @@ public class Observer : MonoBehaviour
             
             //Se dibuja el rayo desde este objeto en la dirección calculada hacia player
             Ray ray = new Ray(transform.position, direction);
+            //Hacemos visible el rayo si tenemos activados los Gizmos
+            Debug.DrawRay(transform.position, direction, Color.yellow,
+                Time.deltaTime);
 
             //Declaramos un RaycastHit que pasaremos por referencia al siguiente método para que éste le
             //dé valor, una información sobre el posible objeto con el que choque el rayo
@@ -58,10 +61,18 @@ public class Observer : MonoBehaviour
                 if (raycastHit.collider.transform == player)
                 {
                     Debug.Log("Cazado!!!!");
+                    gameEnding.CatchPlayer();
                 }
             }
         }
     }
-    
-    
+
+    //Mostramos gizmos con la posición de los pointofview de cada gárgola y una línea hacia el player
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawSphere(transform.position, 0.1f);
+        Gizmos.color = Color.magenta;
+        Gizmos.DrawLine(transform.position, player.position + Vector3.up);
+    }
 }
