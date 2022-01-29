@@ -60,7 +60,7 @@ public class Observer : MonoBehaviour
                 //Si el rayo ha chocado con un objeto (con su collider) y ese objeto es el player
                 if (raycastHit.collider.transform == player)
                 {
-                    Debug.Log("Cazado!!!!");
+                    //Debug.Log("Cazado!!!!");
                     gameEnding.CatchPlayer();
                 }
             }
