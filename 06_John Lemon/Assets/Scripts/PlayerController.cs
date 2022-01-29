@@ -14,12 +14,16 @@ public class PlayerController : MonoBehaviour
     private Rigidbody _rigidbody;
 
     private Quaternion rotation;//Rotación del personaje
+
+    private AudioSource _audioSource;//Para reproducir el sonido de los pasos
     
     // Start is called before the first frame update
     void Start()
     {
         _animator = GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody>();
+        _audioSource = GetComponent<AudioSource>();
+        
         rotation = Quaternion.identity;//Nos aseguramos de que al principio no haya ninguna rotación
     }
 
@@ -43,6 +47,18 @@ public class PlayerController : MonoBehaviour
         //La cual ya está configurada por el artista para mover al personaje además de animarlo
         bool isWalking = hasHorizontalInput || hasVerticalInput;
         _animator.SetBool("isWalking", isWalking);
+        //También reproduciremos el sonido de los pasos cuando el personaje esté en movimiento
+        if (isWalking)
+        {
+            if (!_audioSource.isPlaying) //Si no se está reproduciendo ya el sonido
+            {
+                _audioSource.Play();
+            }
+        }
+        else
+        {
+            _audioSource.Stop();
+        }
         
         //Utilizamos el método RotateTowards para generar una rotación suave y
         // progresiva hacia la dirección del vector de movimiento:

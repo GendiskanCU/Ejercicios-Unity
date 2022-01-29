@@ -21,6 +21,9 @@ public class GameEnding : MonoBehaviour
 
     private float timer;//Contador interno de tiempo
     
+    public AudioSource exitAudio, caughtAudio;//Audios que se reproducirán al vencer o ser cazado;
+    private bool hasAudioPlayed;//¿Ha sido reproducido el audio?
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == player)
@@ -33,19 +36,25 @@ public class GameEnding : MonoBehaviour
     {
         if (isPlayerAtExit)//Cuando el player esté en la salida se mostrará la imagen de victoria y termina el juego
         {
-            EndLevel(exitBackgroundImageCanvasGroup, false);
+            EndLevel(exitBackgroundImageCanvasGroup, false, exitAudio);
         }
         else if(isPlayercaugth)//Si han cazado al player se mostrará la imagen de derrota y reinicia el juego
         {
-            EndLevel(caugthBackgroundImageCanvasGroup, true);
+            EndLevel(caugthBackgroundImageCanvasGroup, true, caughtAudio);
         }
     }
 
     /// <summary>Muestra la imagen de victoria o derrota y cierra o reinicia el juego</summary>
     /// <param name="imageCanvasGroup">CanvasGroup que contiene la imagen a mostrar</param>
     /// <param name="doRestart">true para reiniciar la escena, false para salir del juego</param>
-    private void EndLevel(CanvasGroup imageCanvasGroup, bool doRestart)
+    /// /// <param name="audioSource">Sonido que deberá reproducirse</param>
+    private void EndLevel(CanvasGroup imageCanvasGroup, bool doRestart, AudioSource audioSource)
     {
+        if (!hasAudioPlayed) //Si el sonido no se está ya reproduciendo
+        {
+            hasAudioPlayed = true;
+            audioSource.Play();
+        }
         
         timer += Time.deltaTime;//Aumentamos el contador
 
