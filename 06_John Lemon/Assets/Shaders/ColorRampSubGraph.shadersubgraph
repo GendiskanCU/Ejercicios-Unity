@@ -229,7 +229,7 @@
     },
     "m_PreviewData": {
         "serializedMesh": {
-            "m_SerializedMesh": "{\"mesh\":{\"instanceID\":0}}",
+            "m_SerializedMesh": "{\"mesh\":{\"fileID\":4300000,\"guid\":\"563ac48ff656d49478fd93213f4c0eb8\",\"type\":3}}",
             "m_Guid": ""
         }
     },
