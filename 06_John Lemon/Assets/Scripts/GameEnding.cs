@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameEnding : MonoBehaviour
 {
     public float fadeDuration = 1.0f;//Duración del "fading" sobre la imagen del canvas
-    public float displayImageDuration = 1.0f;//Duración de la imagen una vez mostrada totalmente
+    public float displayImageDuration = 2.0f;//Duración de la imagen una vez mostrada totalmente
 
     public GameObject player;//El player
 
