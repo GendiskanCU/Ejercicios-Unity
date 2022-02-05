@@ -1,3 +1,8 @@
+//Hacemos una redefinición para usar las dos plataformas de móviles conjuntamente
+#if UNITY_IOS || UNITY_ANDROID
+    #define USING_MOBILE
+#endif
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -32,8 +37,25 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         //Capturamos la pulsación de los botones de los ejes de movimiento
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        //En función de la plataforma de compilación del juego
+        #if USING_MOBILE
+            float horizontal = Input.GetAxis("Mouse X");
+            float vertical = Input.GetAxis("Mouse Y");
+            //Cuando el usuario haya pulsado al menos una vez sobre la pantalla
+            if (Input.touchCount > 0)
+            {
+                //Cogemos el valor en x del primero de los toques (posición 0)
+                horizontal = Input.touches[0].deltaPosition.x;
+                //E igual para el otro eje
+                vertical = Input.touches[0].deltaPosition.y;
+            }
+            
+        #else 
+            float horizontal = Input.GetAxis("Horizontal");
+            float vertical = Input.GetAxis("Vertical");
+        #endif
+        
+        
         //Lo asignamos al vector de movimiento del personaje
         movement.Set(horizontal, 0, vertical);
         //Lo normalizamos para que siempre sea igual de largo
